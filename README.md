@@ -130,3 +130,29 @@ The number is odd.
 5. What is fragmentation? What does Linked List have to do with it?
 
 We know that when we use arrays, we use sequential memory, i.e. the memory is used contiguously. Now, let us say that we have a large size array and we don’t have that much sequential memory. So, we won’t be able to store that data. Even if the memory is available, it is not available contiguously, but rather in fragments and we are not able to utilize this. This is called fragmentation.
+
+	![image](https://user-images.githubusercontent.com/81725794/184070886-932380b9-f66e-4ede-a813-93e3654e73a2.png)
+
+So, we can use a linked list to store the data as it does not require contiguous memory and thus solves the problem of fragmentation. In a linked list, data is stored in a node that also stores the pointer to the next node as the data is not contiguous and the next node can be present anywhere in the memory.
+	
+![image](https://user-images.githubusercontent.com/81725794/184070927-cc422233-0ed8-4ec9-a726-9ecc504ea54a.png)
+
+6. List some linear and some non-linear data structures.
+	
+Linear Data structures: Arrays, Linked Lists, Stacks, Queues, and Dequeues, are all linear data structures.
+Non-Linear Data structures: The non-linear data structures can further be categorized as circular and non-circular. Some circular data structures are Circular Queue, Circular Dequeue, Circular Linked List, etc. Some non-circular data structures are Trees, Graphs, Priority queues, etc.
+	
+7. List some major roles performed by an Operating System.
+	
+An operating system performs various roles. Some of the examples are as follows:
+
+Resource Governor: The OS acts as a resource governor so that there is no load on the system. It allocates and deallocates the resources to the processes and also handles the synchronization of these resources among various processes.
+Process Management: OS uses various Scheduling algorithms to manage the processes and their execution. This is done to increase the efficiency of the CPU so that it is never idle and the processes keep on executing.
+Storage Management: OS acts as a storage manager bus using its File System. The data of the user is stored in the form of files and directories.
+Memory Management: Memory management and storage management are confused with each other. However, the storage management concerns the file system and storage of the data in the Computer, the memory management means managing the memory allocation to the processes at the time of execution. Which process should be kept in the Ready Queue, which is in the Waiting Queue (both these queues are inside RAM only).
+Privacy and Security: Privacy and security from any threats or viruses are also the responsibility of the OS. However, inter-process security is also the responsibility of the OS.
+	
+8. Can we override the private methods?	
+	
+
+	
