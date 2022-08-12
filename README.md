@@ -192,4 +192,24 @@ IP stands for Internet Protocol. It is present at the Network Layer of the OSI m
 
 The SQL Query to print the current date is: GetDate()
 
-16. Write an SQL Query to select all those en
+16. Write an SQL Query to select all those entries from the table STUDENTS, whose name is “Rahul”.
+The SQL Query to do so is
+
+SELECT * FROM STUDENTS WHERE NAME = “Rahul”
+	
+17. What do you know about DCL?
+	
+DCL means Data Control Language. DCL is responsible for managing the access and permissions to a DBMS. DCL helps in deciding which part of the Database should be accessed by which user. The 2 major commands in DCL are :
+
+GRANT: This command is used to grant privileges to the Objects of the database for a user. It helps one user to grant certain permissions to the other users.
+REVOKE: This command is used to withdraw the privileges for the objects of the database that have been granted to a user.
+	
+18. Can constructors be overridden?
+
+No, constructors are not overridden. The sub-class constructors have to call the super-class constructor for their creation as they inherit from the super-class. Hence, the constructors cannot be overridden.
+
+19. Do you know why the main() method is static in Java?
+	
+The main() method, like every other method in Java, is also inside a class. Now, when we compile or run the Java program, we do not create an object of the class containing the main() method. So, we have to make sure that the main() method can be accessed without creating an object of the main() class. Hence, the main() method is static because the static methods belong to the class and not to a particular object.
+
+20. Write a program to print the right-angled triangle pattern as shown below	
