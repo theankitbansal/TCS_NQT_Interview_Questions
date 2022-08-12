@@ -212,4 +212,38 @@ No, constructors are not overridden. The sub-class constructors have to call the
 	
 The main() method, like every other method in Java, is also inside a class. Now, when we compile or run the Java program, we do not create an object of the class containing the main() method. So, we have to make sure that the main() method can be accessed without creating an object of the main() class. Hence, the main() method is static because the static methods belong to the class and not to a particular object.
 
-20. Write a program to print the right-angled triangle pattern as shown below	
+20. Write a program to print the right-angled triangle pattern as shown below for any value of N input by the user.
+	
+For N = 5
+
+*
+**
+***
+****
+*****
+Let us observe the pattern carefully. We can see that in the 1st row, there is only 1 star and in the second row, there are 2 stars, and so on. This means that in the ith row, we are printing i number of stars. Following is the C++ program for the same.
+
+C++ Program
+
+#include <algorithm>
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+
+int main() {
+	// Your code goes here;
+	int N;
+	cin>>N;
+	
+	for(int i=1;i<=N;i++) {
+		for(int j=1;j<=i;j++) {
+			cout<<"*";
+		}
+		cout<<"\n";
+	}
+}
+Sample Input: 7	
+
+	![image](https://user-images.githubusercontent.com/81725794/184279677-5eeca312-98cb-4793-8528-db86bd53a7e9.png)
