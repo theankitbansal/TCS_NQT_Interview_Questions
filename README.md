@@ -169,4 +169,27 @@ Java has Wrapper classes for each primitive data type. So, even though Java is n
 DOM stands for Document Object Model. It is an API (Application Programming Interface) that is used to access and change the contents of HTML elements. It provides a hierarchical structure of the web page that makes it easy to access the elements, their parents, their siblings and their children.
 
 11. Difference between Process and Thread.
-	
+![Screenshot (985)](https://user-images.githubusercontent.com/81725794/184279465-dce33cfa-d8f6-46b1-ad28-0329886bdaea.png)
+
+
+12. Difference between user-level thread and kernel-level thread.
+
+![Screenshot (986)](https://user-images.githubusercontent.com/81725794/184279491-d081f494-ca4b-4f8a-a386-f7b2562d973f.png)
+
+13. What is the relation between the pages and frames in the OS?
+
+In OS, paging is the method of dividing each process into small segments called pages and the main memory is also divided into the frames so that each frame can accommodate one data page. Hence, the relation between pages and frames is
+
+Size of page = Size of frame
+
+14. What is TCP/IP Protocol?
+
+TCP stands for Transfer Control Protocol. The TCP is a connection-oriented protocol implemented at the Transport Layer of the OSI Model. TCP is responsible for breaking the data into the form of small frames called framing and later, at the receiver end, it also reassembles the frames back into the sequence to get the data back. 
+
+IP stands for Internet Protocol. It is present at the Network Layer of the OSI model. IP is not reliable and it is a connectionless model. IP is responsible for sending and receiving the data that is broken into the form of frames by the TCP. The IP is combined with TCP to form a reliable data sending-receiving Protocol.
+
+15. Write an SQL query to print the current date.
+
+The SQL Query to print the current date is: GetDate()
+
+16. Write an SQL Query to select all those en
