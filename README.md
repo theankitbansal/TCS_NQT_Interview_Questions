@@ -15,6 +15,7 @@ Yes, C++ is an Object-Oriented programming language as we can create classes and
 
 The solution is using the XOR operator. Following is the C++ code for the same.
 
+
 C++ Program
 
 #include <algorithm>
